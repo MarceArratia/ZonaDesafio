@@ -1,0 +1,84 @@
+.zvc-header {
+    background: rgb(88, 211, 99);
+    background: -moz-linear-gradient(left, rgb(105, 216, 101) 0%, rgb(16, 180, 11) 41%, rgb(8, 199, 24) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgb(147, 222, 157)), color-stop(41%, rgb(117, 209, 174)), color-stop(100%, rgb(97, 191, 73) 100%));
+    background: -webkit-linear-gradient(left, rgb(147, 222, 147) 0%, rgba(117,189,209,1) 41%, rgb(97, 191, 73) 100%);
+    background: -o-linear-gradient(left, rgb(147, 222, 151) 0%, rgba(117,189,209,1) 41%,rgb(147, 222, 157) 0%);
+    background: -ms-linear-gradient(left, rgb(147, 222, 157) 0%, rgba(117,189,209,1) 41%, rgb(147, 222, 157) 0%);
+    background: linear-gradient(to right, rgb(97, 191, 73) 100%), rgba(117,189,209,1) 41%, rgb(147, 222, 157) 0%;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf', GradientType=1 );
+
+    -webkit-box-shadow: 7px 7px 21px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 21px -12px rgba(0,0,0,0.75);
+    box-shadow: 7px 7px 21px -12px rgba(0,0,0,0.75);
+}
+
+.sidebar {
+    margin: 0;
+    padding: 4px;
+    padding-top:10px;
+    width: 270px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+
+   background: rgba(172, 236, 147, 0.966);
+    -webkit-box-shadow: 7px 7px 21px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 21px -12px rgba(0,0,0,0.75);
+    box-shadow: 7px 7px 21px -12px rgba(0,0,0,0.75);
+}
+.sidebar.collapsed {
+    display: none;
+}
+.main-content {
+    padding-left: 270px;
+    padding-top:10px;
+}
+.main-content.collapsed {
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .main-content {padding-left: 20px;}
+}
+
+.sidebar-options {
+    list-style: none;
+    padding-left: 10px;
+}
+.sidebar-options li i {
+    margin-right: 4px;
+    margin-top: 4px;
+}
+.sidebar-first-level-option {
+    cursor: pointer;
+}
+.sidebar-first-level-option:hover {
+    text-decoration: underline;
+}
+.sidebar-collapsible-option.closed .sidebar-suboptions {
+    display: none;
+}
+.sidebar-collapsible-option.closed i {
+    transform: rotate(-90deg);
+}
+.sidebar-selectable-option {
+    cursor: pointer;
+    font-size: 90%;
+}
+.sidebar-selectable-option.selected {
+    font-weight: bolder;
+}
+.sidebar-selectable-option:hover {
+    text-decoration: underline;    
+}
+
+.link-to-component:hover {
+    text-decoration: underline !important;
+    cursor: pointer;
+}

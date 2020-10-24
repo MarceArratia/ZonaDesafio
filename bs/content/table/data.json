@@ -1,0 +1,61 @@
+{
+    "nombre": "Acelga",
+     "codigo": 1,
+     "Precio": 990,
+     "descripcion": "Las acelgas son un alimento de alto valor nutritivo y bajo aporte calórico. Contienen fibra soluble, que favorece el tránsito intestinal y previene el estreñimiento. También son un importante antioxidante rico en yodo, calcio y magnesio. Como las espinacas, esta verdura también es fuente de hierro "
+ },
+  {
+     "nombre": "Achicoria",
+     "codigo": 2,
+     "Precio": 890,
+     "descripcion": "La achicoria alivia el estrés e induce al sueño y a la relajación. Previene problemas digestivos gracias a su aporte en inulina, un probiótico muy potente. La inulina se utiliza para combatir problemas digestivos e intestinales, incluyendo la acidez o reflujo"
+    } 
+    ,
+    {
+     "nombre": "Ají",
+     "codigo": 3,
+     "Precio": 790,
+     "descripcion": "El ají, especialmente su variante picante, es rico en vitaminas y capsaicina. Administrado en compresas es utilizado como un remedio para las dolencias articulares al servir de vaso dilatador."
+    } ,
+    {
+     "nombre": "Ajo",
+     "codigo": 4,
+     "Precio": 990,
+     "descripcion": "El ajo es un ingrediente que nos aporta una gran cantidad de propiedades medicinales que son muy interesantes para nuestro bienestar. De hecho, se conocen más de 2000 componentes activos presentes en el ajo que nos ayudan a mantener un organismo más fuerte y sano"
+    } ,
+    {
+     "nombre": "Albahaca",
+     "codigo": 5,
+     "Precio": 790,
+     "descripcion": "Mejora el sistema inmune y respiratorio. Es antibacteriano, por lo que es excelente para eliminar el acné. Mejora el dolor de garganta y es ideal para combatir el estrés. Gracias a que posee fitonutrientes y flavonoides la albahaca cuenta con importantes propiedades antiinflamatorias"
+    },
+    {
+     "nombre": "Beterraga",
+     "codigo": 6,
+     "Precio": 890,
+     "descripcion": "La betarraga, o también llamada remolacha, es un vegetal que ofrece muchos beneficios para la salud. Combate enfermedades de la sangre gracias a su alto contenido de hierro. Además de contener propiedades anticancerígenas y aportes de nutrientes como vitaminas, potasio, calcio y ácido fólico"
+    },
+    {
+     "nombre": "Brócoli",
+     "codigo": 7,
+     "Precio": 790,
+     "descripcion": "Fuente de provitamina A y vitamina C.Con potasio, calcio, fósforo, magnesio y hierro. El azufre que contiene le aporta propiedades antimicrobianas. También contiene ácido fólico.Alto contenido en fibra, es saciante.Su quercitina actúa como antiinflamatorio."
+    },
+    {
+     "nombre": "Cebollín",
+     "codigo": 8,
+     "Precio": 990,
+     "descripcion": "Según la Base de Datos Española de Composición de Alimentos, el cebollino es una gran fuente de energía dadas sus grandes dosis de proteínas y carbohidratos. Además, aporta un buen número de nutrientes como vitaminas A, B y C, y minerales como calcio, potasio, magnesio y fósforo."
+    },
+    {
+     "nombre": "Ciboullette",
+     "codigo": 9,
+     "Precio": 890,
+     "descripcion": "Está compuesto de vitaminas A, B, C, minerales como calcio, potasio, yodo, fósforo, zinc, magnesio, selenio, hierro, así como también de fibra, ácidos grasos poli insaturados y ácido fólico."
+    },
+    {
+     "nombre": "Cilantro",
+     "codigo": 10,
+     "Precio": 990,
+     "descripcion": "El cilantro es antiinflamatoio y tiene propiedades antisépticas. Contiene un 20% de aceites esenciales, destaca Fidel Pascual, director de calidad de Herbes del Molí. “Actúan sobre el sistema digestivo facilitando la digestión y aliviando el estreñimiento, también es eficaz contra cólicos y flatulencias."
+    }
